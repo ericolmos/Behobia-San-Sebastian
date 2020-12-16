@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    /* font family */
+    font-family: 'Quicksand', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Estos estilos definen la barra de navegación */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    font-size: 16px;
+    padding: 0px 0%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.8s;
+}
+
+li {
+    float: left;
+    width: 10%;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 4px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: black;
+    background-color: white;
+}
+
+.header {
+    background-image: url("../img/5c6a9cf00ee6947b123496b9-behobia-san-sebastian.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10% 20px;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    font-size: 100px;
+    backdrop-filter: blur(4px);
+    padding: 2%;
+}
+
+.one-column {
+    float: left;
+    width: 100%;
+    padding: 10%;
+}
+
+.one-column h1 {
+    font-size: 4vw;
+    text-align: center;
+}
+
+.one-column p {
+    text-align: center;
+}
+
+.two-column {
+    float: left;
+    width: 50%;
+    padding: 2%;
+}
+
+.two-column h1 {
+    font-size: 4vw;
+}
+
+.two-column h2 {
+    font-size: 2vw;
+}
+
+.two-column h3 {
+    font-size: 1vw;
+}
+
+.two-column p {
+    font-size: 2.5vw;
+}
+
+.two-column img {
+    width: 100%;
+}
+
+.four-column {
+    float: left;
+    width: 25%;
+    padding: 2%;
+    margin-bottom: -5px;
+}
+
+.four-column p {
+    text-align: center;
+}
+
+.four-column img {
+    width: 100%;
+}
+
+td {
+    border: 1px solid black;
+}
+
+table {
+    width: 100%;
+}
+
+#section-1 {
+    background-color: yellow;
+}
+
+#section-2 {
+    color: black;
+}
+
+#section-3 {
+    background-color: yellow;
+}
+
+#section-4 {
+    background-color: yellow;
+}
+
+#section-5 {
+    background-color: #46A6FC;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+#footer p {
+    font-size: 20px;
+    text-align: left;
+}
+
+
+/*Clases auxiliares*/
+
+.padding-0 {
+    padding: 0px;
+}
